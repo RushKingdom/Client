@@ -9,6 +9,11 @@ body {
 h1 {
     color: #ff0000;
 }
+
+h1:hover {
+    color: #5664;
+}
+
 a {
     color: #ff0000;
     font-weight: bold;
