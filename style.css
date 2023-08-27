@@ -23,43 +23,47 @@ body, h1, h2, h3, p, ul, li {
   .button {
     background-color: #333;
     padding: 8px 30px;
-    color: #333;
-    text-shadow: 2px 2px gray;
+    color: gray;
     border-radius: 8px;
     box-shadow: 5px 2px 15px rgba(0, 0, 0, 0.3);
     font-family: "Roboto", sans-serif;
   }
 
+
   .welcome {
     color: #333;
     text-shadow: 2px 2px gray;
+  }
+
+  
+  .header img {
+  max-width: 100%; /* Skaliert das Bild auf die maximale Breite des Elternelements */
+  height: auto;
+  display: block; /* Entfernt den Leerraum unter dem Bild */
+  margin: 0 auto; /* Zentriert das Bild horizontal */
   }
   
   body {
     font-family: Arial, sans-serif;
   }
   
-  /* Header-Stil */
-  header {
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
-  }
-  
-  nav ul {
-    list-style: none;
+  .navbar {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    background-color: #333;
   }
   
-  nav li {
-    margin-right: 20px;
+  .navbar li {
+    margin: 0 15px;
   }
   
-  nav a {
-    background-image: url("bild.png");
-    
-}
-
+  .logo {
+    margin: 0;
+  }
+  
 a {
     color: #ff0000;
     font-weight: bold;

@@ -7,18 +7,21 @@
   <link rel="stylesheet" href="style.css">
   <script src="script.js"></script>
 </head>
-<body>
+<body onload="showAutomaticAlert()">
   <header>
     <nav>
-      <ul>
-        <li><a href="#" class="button">Startseite</a></li>
-        <li><a href="#" class="button">Download  </a></li>
+      <ul class="navbar">
+        <li><img src="img_rkc.png" alt="Logo" width="48" height="48" class="logo"></li>
+        <li><a href="javascript:void(0);" class="button" onclick="scrollToTop()">Startseite</a></li>
+        <li><a href="RKClient.zip" class="button" download>Download</a></li>
         <li><a href="#" class="button">Über Uns</a></li>
         <li><a href="#" class="button">Kontakt</a></li>
       </ul>
     </nav>
   </header>
 
+</body>
+</html>
   <section class="main">
     <h1 class="welcome">Willkommen bei RushKingdom Client Beta v1</h1>
     <br>
