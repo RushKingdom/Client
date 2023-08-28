@@ -1,183 +1,172 @@
 body, h1, h2, h3, p, ul, li {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.silas {
+  font-family: 'Phudu', bold;
+  background-color: #333;
+  color: #2bcc0f;
+}
+
+.dev {
+  font-family: 'Phudu', bold;
+  font-size: larger;
+  color: aqua;
+}
+
+.button:hover {
+  text-decoration: underline;
+  font-family: "Roboto", sans-serif;
+}
+
+.nav_link {
+  background-color: #333;
+  padding: 8px 30px;
+  color: gray;
+  text-shadow: 2px 2px black;
+  border-radius: 8px;
+  box-shadow: 5px 2px 15px rgba(0, 0, 0, 0.3);
+  font-family: "Roboto", sans-serif;
+}
+
+.welcome {
+  color: #333;
+  text-shadow: 2px 2px gray;
+}
+
+.header img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  background-color: #333;
+}
+
+.navbar li {
+  margin: 0 15px;
+}
+
+.logo {
+  margin: 0;
+}
+
+a {
+  color: #ff0000;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+/* Hero-Bereich */
+.main {
+  background-color: gray;
+  background-size: cover;
+  text-align: center;
+  padding: 100px 0;
+  color: white;
+}
+
+.download_button {
+  display: inline-block;
+  background-color: #2bcc0f;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.platzhalter {
+  padding: 50px 0;
+  text-align: center;
+  background-color: gray;
+}
+
+/* Über Uns-Bereich */
+.about {
+  background-color: gray;
+  padding: 50px 0;
+  text-align: center;
+}
+
+/* Kontakt-Bereich */
+.contact {
+  background-color: gray;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.contact a {
+  color: #FFA500;
+}
+
+/* Footer-Stil */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Responsives Design */
+@media (max-width: 768px) {
+  .navbar li {
+    margin: 10px 0;
   }
 
-  .silas {
-    font-family: 'Phudu', cursive;
-    background-color: #333;
-    color: #2bcc0f;
+  .hero {
+    padding: 50px 0;
   }
 
-  .dev {
-    font-family: 'Phudu', bold;
-    font-size: larger;
-    color: aqua;
+  .hero h1 {
+    font-size: 24px;
   }
 
-  .button:hover {
-    text-decoration: underline;
-    font-family: "Roboto", sans-serif;
-    }
+  .cta-button {
+    font-size: 14px;
+  }
 
-  .button {
-    background-color: #333;
-    padding: 8px 30px;
-    color: gray;
+  .products,
+  .about,
+  .contact {
+    padding: 30px 0;
+  }
+
+  .nav_link {
+    display: block;
+    margin: 10px 0;
+    padding: 8px 0;
     border-radius: 8px;
     box-shadow: 5px 2px 15px rgba(0, 0, 0, 0.3);
-    font-family: "Roboto", sans-serif;
   }
+}
 
+.cta-button {
+  display: inline-block;
+  background-color: #FFA500;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
 
-  .welcome {
-    color: #333;
-    text-shadow: 2px 2px gray;
-  }
-
-  
-  .header img {
-  max-width: 100%; /* Skaliert das Bild auf die maximale Breite des Elternelements */
-  height: auto;
-  display: block; /* Entfernt den Leerraum unter dem Bild */
-  margin: 0 auto; /* Zentriert das Bild horizontal */
-  }
-  
-  body {
-    font-family: Arial, sans-serif;
-  }
-  
-  .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    list-style: none;
-    padding: 0;
-    background-color: #333;
-  }
-  
-  .navbar li {
-    margin: 0 15px;
-  }
-  
-  .logo {
-    margin: 0;
-  }
-  
-a {
-    color: #ff0000;
-    font-weight: bold;
-    text-decoration: none;
-    color: white;
-  }
-  
-  /* Hero-Bereich */
-  .main {
-    background-color: gray;
-    background-size: cover;
-    text-align: center;
-    padding: 100px 0;
-    color: white;
-  }
-  
-  .download_button {
-    display: inline-block;
-    background-color: #2bcc0f;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    margin-top: 20px;
-  }
-  
-  .platzhalter {
-    padding: 50px 0;
-    text-align: center;
-    background-color: gray;
-  }
-  
-  /* Über Uns-Bereich */
-  .about {
-    background-color: gray;
-    padding: 50px 0;
-    text-align: center;
-  }
-  
-  /* Kontakt-Bereich */
-  .contact {
-    background-color: gray;
-    padding: 50px 0;
-    text-align: center;
-  }
-  
-  .contact a {
-    color: #FFA500;
-  }
-  
-  /* Footer-Stil */
-  footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-  }
-  
-  /* Responsives Design */
-  @media (max-width: 768px) {
-    nav ul {
-      flex-direction: column;
-    }
-  
-    nav li {
-      margin: 10px 0;
-    }
-  }
-  @media (max-width: 768px) {
-    nav ul {
-      flex-direction: column;
-    }
-  
-    nav li {
-      margin: 10px 0;
-    }
-  
-    .hero {
-      padding: 50px 0;
-    }
-  
-    .hero h1 {
-      font-size: 24px;
-    }
-  
-    .cta-button {
-      font-size: 14px;
-    }
-  
-    .products {
-      padding: 30px 0;
-    }
-  
-    .about {
-      padding: 30px 0;
-    }
-  
-    .contact {
-      padding: 30px 0;
-    }
-  }
-  .cta-button {
-    display: inline-block;
-    background-color: #FFA500;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    margin-top: 20px;
-    transition: background-color 0.3s, color 0.3s;
-  }
-  
-  /* Hover-Effekt für Button */
-  .cta-button:hover {
-    background-color: #FF7F00;
-    color: #fff;
-  }
+/* Hover-Effekt für Button */
+.cta-button:hover {
+  background-color: #FF7F00;
+  color: #fff;
+}
